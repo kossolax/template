@@ -1,0 +1,70 @@
+# Ignorer les fichiers compilés
+*.o
+*.obj
+*.dll
+*.dylib
+*.so
+*.exe
+
+# Ignorer les fichiers de débogage
+*.dSYM/
+*.ncb
+*.sdf
+*.sqlite
+*.ipch/
+
+# Ignorer les fichiers générés par IDE
+*.vs/
+.vscode/
+.idea/
+*.user
+*.swp
+*.out
+
+# Ignorer les fichiers de configuration de l'IDE
+*launch.json
+*tasks.json
+*.code-workspace
+
+# Ignoré par les projets C/C++
+a.out
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.log
+
+# Ignorer les bibliothèques
+venv/
+env/
+node_modules/
+lib/
+lib64/
+
+# Fichiers pour les projets C#
+*.pdb
+*.mdb
+
+# Ignorer le cache et les fichiers temporaires
+*.tmp
+*.temp
+*.bak
+
+# Ignorer les fichiers de build
+build/
+dist/
+debug/
+release/
+bin/
+obj/
+
+# Ignorer tous les fichiers cachés
+.*/*
+
+# Ignorer les fichiers spécifiques aux systèmes:
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers spécifiques aux systèmes de build
+Makefile
+CMakeLists.txt
