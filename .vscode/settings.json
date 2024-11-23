@@ -2,5 +2,6 @@
     "files.exclude": {
         "**/.*": true
     },
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
 }
